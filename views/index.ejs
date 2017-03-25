@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Joke Teller</title>
+  </head>
+  <body>
+    <% jokes.forEach(function (joke) { %>
+    <h1><%= joke.name %></h1>
+    <p><%= joke.description %></p>
+    <hr>
+    <% }); %>
+  </body>
+</html>
